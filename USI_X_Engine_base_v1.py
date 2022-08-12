@@ -15,7 +15,7 @@ class USIX_Engine_base:
         self.score_min = -64
         #評価値の最大値
         self.score_max = 64
-        #ponder関係の処理に居る値
+        #ponder関係の処理に必要な値
         self.no_ponderhit = True
 
     def parse_time(self, command):
