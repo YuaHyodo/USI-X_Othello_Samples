@@ -11,8 +11,8 @@ USI-Xプロトコルに関するサンプルプログラムなどの置き場
 
 ## Codingame_USI_X_Bridge_v1.py
 - codingame( https://www.codingame.com/multiplayer/bot-programming/othello-1 )のオセロAIをUSI-Xエンジンとして動かすツール(テスト不足)
-- USI-X-Engine_base_v1.pyを使っている
-- 実行には、snail_reversi( https://github.com/YuaHyodo/snail_reversi )が必要。
+- codingameのオセロAIを起動するbatファイルを用意すれば"多分"動く。(Pythonで作ったランダムプレーヤーでしか確認していない)
+- 実行には、USI-X-Engine_base_v1.pyとsnail_reversi( https://github.com/YuaHyodo/snail_reversi )が必要。
 
 # ライセンス
 - このリポジトリに置いてあるサンプルコードはMITライセンスです。
