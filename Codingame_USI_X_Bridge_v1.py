@@ -101,6 +101,6 @@ class codingame_USI_X_Bridge(base):
 
 if __name__ == '__main__':
     #この変数には、batファイルのPathを入れる
-    ai_bat_file = 'test_codingameAI_1.bat'
+    ai_bat_file = '.bat'
     ai = codingame_USI_X_Bridge(ai_bat_file)
     ai.run()
