@@ -38,7 +38,7 @@ class Player(base):
     def __init__(self):
         super().__init__()
         self.name = ''#エンジンの名前(なんでもいい)
-        self.suther = ''#開発者の名前(なんでもいい)
+        self.auther = ''#開発者の名前(なんでもいい)
 
     def set_board(self):
         #この関数では、エンジンの脳内盤をセットする
