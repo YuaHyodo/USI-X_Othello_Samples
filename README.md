@@ -14,6 +14,10 @@ USI-Xプロトコルに関するサンプルプログラムなどの置き場
 - codingameのオセロAIを起動するbatファイルを用意すれば"多分"動く。(Pythonで作ったランダムプレーヤーでしか確認していない)
 - 実行には、USI-X-Engine_base_v1.pyとsnail_reversi( https://github.com/YuaHyodo/snail_reversi )が必要。
 
+## Step1.py, Step2.py
+- こちらのリポジトリ( https://github.com/YuaHyodo/USI-X-protocol_othello_version )にある「USI-Xエンジンの作り方(初心者向け)」の第5章と6章のサンプルプログラム
+- 実行には、USI-X-Engine_base_v1.pyとsnail_reversi( https://github.com/YuaHyodo/snail_reversi )が必要。
+
 # ライセンス
 - このリポジトリに置いてあるサンプルコードはMITライセンスです。
 - 詳細はLICENSEファイルを確認してください。
