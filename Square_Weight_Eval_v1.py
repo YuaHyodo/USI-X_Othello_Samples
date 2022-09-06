@@ -76,8 +76,8 @@ class Square_Weight_Eval(base):
 
     def predict(self, inputs):
         output = 0
-        for i in range(len(inputs)):
-            output += (inputs[i] * self.param[0][i])
+        for i in range(64):
+            output += inputs[i] * self.param[0][i]
         output -= self.param[1]
         return self.activation(output)
 
@@ -134,7 +134,7 @@ class Square_Weight_Eval(base):
                 loss_graph[epoch] += abs(loss)
             loss_graph[epoch] /= len(self.dataset)
             for i in range(len(self.test_dataset)):
-                loss_graph_test[epoch] += abs(self.dataset[i][1] - self.predict(self.test_dataset[i][0]))
+                loss_graph_test[epoch] += abs(self.test_dataset[i][1] - self.predict(self.test_dataset[i][0]))
             loss_graph_test[epoch] /= len(self.test_dataset)
         self.save()
         return loss_graph, loss_graph_test
