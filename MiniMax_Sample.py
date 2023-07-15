@@ -85,7 +85,7 @@ class MiniMax(base):
     def __init__(self, path):
         super().__init__()
         self.name = ''
-        self.auther = ''
+        self.author = ''
         self.max_depth = 4#何手先を読むかの数字。大きいほど強いけど思考にその分に時間がかかる
         self.Max = 10000# +無限の代わり
         self.Min = self.Max * -1# -無限の代わり

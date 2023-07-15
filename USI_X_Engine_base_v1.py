@@ -33,7 +33,7 @@ class USIX_Engine_base:
         #エンジンの名前
         self.name = 'USI-X_Engine_base'
         #開発者の名前
-        self.auther = ''
+        self.author = ''
         #評価値の形式
         self.scoretype = 'stones'
         #評価値の最小値
@@ -77,7 +77,7 @@ class USIX_Engine_base:
         usiコマンドに対する応答
         """
         self.output('id name ' + self.name)
-        self.output('id auther ' + self.auther)
+        self.output('id author ' + self.author)
         self.output('usiok')
         return
 
